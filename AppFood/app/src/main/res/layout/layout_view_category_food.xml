@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/img_food_category"
+        android:layout_width="@dimen/_65sdp"
+        android:layout_height="@dimen/_65sdp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baseline_favorite_24" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/tv_food_category_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:fontFamily="@font/myfont"
+        android:text="Category Name"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>
