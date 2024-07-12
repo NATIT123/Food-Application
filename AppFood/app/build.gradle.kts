@@ -3,6 +3,7 @@ plugins {
     id("kotlin-kapt")
     id("org.jetbrains.kotlin.android")
     id("com.google.devtools.ksp")
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
@@ -90,7 +91,7 @@ dependencies {
 
     //Room Db
     val room_version = "2.6.1"
-    annotationProcessor("android.arch.persistence.room:compiler:1.0.0")
+    annotationProcessor("android.arch.persistence.room:compiler:1.1.1")
     implementation("androidx.room:room-runtime:$room_version")
     annotationProcessor("androidx.room:room-compiler:$room_version")
 
